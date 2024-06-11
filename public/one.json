@@ -1,0 +1,63 @@
+[
+   {
+    "Id":1,
+    "Name": "Rahim",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":2,
+    "Name": "Karim",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":3,
+    "Name": "Balam",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":4,
+    "Name": "Akash",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":5,
+    "Name": "Batash",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":6,
+    "Name": "Ovi",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":7,
+    "Name": "Kamrul",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":8,
+    "Name": "Rafiq",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":9,
+    "Name": "Hossian",
+    "Score": "A+",
+    "Percentage": "95%+"
+   },
+   {
+    "Id":10,
+    "Name": "Jabbar",
+    "Score": "A+",
+    "Percentage": "95%+"
+   }
+
+]
