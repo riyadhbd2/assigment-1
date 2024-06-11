@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import avatar from "../assets/avatar.png";
+
 
 const Students = () => {
   const [oneStudents, setOneStudents] = useState([]);
@@ -10,6 +10,7 @@ const Students = () => {
       .then((res) => res.json())
       .then((data) => setOneStudents(data));
   }, []);
+
   useEffect(() => {
     fetch("two.json")
       .then((res) => res.json())
@@ -91,7 +92,7 @@ const Students = () => {
                     <div className="flex space-x-3 items-center">
                       <img
                         className="w-8 h-8"
-                        src={avatar}
+                        src={oneStudent.img}
                         width="32"
                         height="32"
                         alt="John Smith"
@@ -119,21 +120,21 @@ const Students = () => {
 
               {twoStudents.map((twoStudent) => (
                 <tr key={twoStudent.Id} className="border-b border-[#7ECEB529]">
-                  <td className="p-5 text-sm md:text-xl">1</td>
+                  <td className="p-5 text-sm md:text-xl">{twoStudent.Id}</td>
                   <td className="p-5 text-sm md:text-xl">
                     <div className="flex space-x-3 items-center">
                       <img
                         className="w-8 h-8"
-                        src={avatar}
+                        src={twoStudent.img}
                         width="32"
                         height="32"
-                        alt="John Smith"
+                        alt=""
                       />
-                      <span className="whitespace-nowrap">John Smith</span>
+                      <span className="whitespace-nowrap">{twoStudent.Name}</span>
                     </div>
                   </td>
-                  <td className="p-5 text-sm md:text-xl text-center">A+</td>
-                  <td className="p-5 text-sm md:text-xl text-center">98%</td>
+                  <td className="p-5 text-sm md:text-xl text-center">{twoStudent.Score}</td>
+                  <td className="p-5 text-sm md:text-xl text-center">{twoStudent.Percentage}</td>
                 </tr>
               ))}
             </tbody>

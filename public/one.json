@@ -3,7 +3,8 @@
     "Id":1,
     "Name": "Rahim",
     "Score": "A+",
-    "Percentage": "95%+"
+    "Percentage": "95%+",
+    "img" : "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
    },
    {
     "Id":2,
